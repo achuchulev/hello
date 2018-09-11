@@ -1,2 +1,1 @@
-# hello
-Script that prints hello
+# Shell script that prints Hello!
