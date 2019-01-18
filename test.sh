@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 out=$(bash hello.sh)
 if [ "$out" == "Hello!" ]; then
   echo Good
