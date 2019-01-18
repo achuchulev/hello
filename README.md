@@ -6,5 +6,7 @@
 
 ### Get the repo
 
-https://github.com/achuchulev/hello.git
+```
+git clone https://github.com/achuchulev/hello.git
 cd hello
+```
