@@ -4,9 +4,19 @@
 ## How to run
 
 
-### Get the repo
+- Get the repo
 
 ```
 git clone https://github.com/achuchulev/hello.git
 cd hello
 ```
+
+- deploy jenkins instance
+
+```
+terraform init
+terraform plan
+terraform apply
+```
+
+- Configure Jenkins server
