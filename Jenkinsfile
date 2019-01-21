@@ -1,8 +1,10 @@
-node(docker) {
-checkout scm
-stage('build') {
-    withMaven(jdk: 'Default Java', maven: 'Default Maven') {
-    sh 'mvn clean install'
-}
-}
+pipeline {
+    agent { docker { image 'maven-build-slave-0.1' } }
+    stages {
+        stage('build') {
+            steps {
+                sh 'mvn --version'
+            }
+        }
+    }
 }
