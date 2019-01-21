@@ -10,5 +10,3 @@
 git clone https://github.com/achuchulev/hello.git
 cd hello
 ```
-
-- Test
