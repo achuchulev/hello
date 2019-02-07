@@ -1,7 +1,7 @@
 package hello;
 
 public class Message {
-  public string sayHello() {
-    return "Hello!";
-  }
-} 
+	public String sayHello() {
+		return "Hi,How are you?";
+	}
+}
